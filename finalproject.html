@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ARROW</title>
+        <link rel="stylesheet" href="game.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1>ARROW</h1>
+        <div id="panel"><div id="life"></div><div id="level"></div><div id="score"></div></div>
+        <canvas id="game"></canvas>
+        <div class="msgbox" id="start">
+            <div class="message">Click the Start button to start the game</div>
+            <button class="btn" onclick=Start()>Start</button>
+        </div>
+        <div class="msgbox" id="end">
+            <div class="message"></div>
+            <button class="btn" onclick=document.location.reload()>Replay</button>
+        </div>
+        <script src="game.js"></script>
+    </body>
+</html>
